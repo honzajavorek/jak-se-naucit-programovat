@@ -4,6 +4,20 @@ Přednáška o tom, jak se naučit programovat. Nenápadně publiku naznačuje, 
 
 **Cílová skupina:** úplně kdokoliv
 
+## Instalace
+
+```
+$ npm install
+```
+
+## Spuštění
+
+```
+$ open index.html
+```
+
+Funguje jenom na Macu, ostatní si prostě otevřou `index.html` v prohlížeči.
+
 ## Co je potřeba dodělat...
 
 - Nějaký pěkný design
