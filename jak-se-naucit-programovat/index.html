@@ -1,0 +1,522 @@
+<html>
+  <meta charset="utf-8">
+  <head>
+    <link rel="stylesheet" href="./node_modules/reveal.js/css/reveal.css">
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+        <section>
+
+          <h1>Jak se naučit programovat</h1>
+          <p><strong>v Pythonu</strong></p>
+
+        </section>
+        <section>
+
+          <h1>Co je programování?</h1>
+
+        </section>
+        <section>
+
+          <h2>1.</h2>
+          <p>Potřebuji vyřešit nějaký problém a nechce se mi ho řešit ručně</p>
+          <p class="emojis">🔧 😏</p>
+
+        </section>
+        <section>
+
+          <h2>2.</h2>
+          <p>Vymyslím recept, podle kterého by ten problém mohl počítač vyřešit za mě</p>
+          <p class="emojis">✨ 💡</p>
+        </section>
+        <section>
+
+          <h2>3.</h2>
+          <p>Napíšu recept do souboru jako obyčejný text, v nějakém "jazyce", kterému počítač rozumí</p>
+          <p class="emojis">💻 💬</p>
+
+        </section>
+        <section>
+
+          <h2>4.</h2>
+          <p>Spustím recept počítačem</p>
+          <p class="emojis">✨ 💻</p>
+
+        </section>
+        <section>
+
+          <h2>5.</h2>
+          <p>Zjistím, že jsem to vymyslel blbě a mám tam chybu, počítač slepě následuje můj chybně vymyšlený recept a nedělá přesně to co jsem původně chtěl</p>
+          <p class="emojis">😬 💥</p>
+
+        </section>
+        <section>
+
+          <h2>6.</h2>
+          <p>Opravuju recept a spouštím ho počítačem, nejde mi to opravit, přemýšlím, piju kafe, vařím čaj, ze zoufalství se točím na židli...</p>
+          <p class="emojis">☕️ 😟</p>
+
+        </section>
+        <section>
+
+          <h2>7.</h2>
+          <p>Po třech hodinách spustím recept počítačem a ono to funguje. Hurá, naprogramoval jsem něco!</p>
+          <p class="emojis">🏆 😀</p>
+
+        </section>
+        <section>
+
+          <h1>Co není programování?</h1>
+
+        </section>
+        <section>
+
+          <h2>🔬 Věda 🔬</h2>
+          <p>Ani matika, ani fyzika, většinou ani žádná jiná věda</p>
+
+        </section>
+        <section>
+
+          <h2>🛠 Servis 🛠</h2>
+          <p>Spravování tiskáren v kanclu, nastavování mejlových schránek</p>
+
+        </section>
+        <section>
+
+          <h2>🔮 Magie 🔮</h2>
+          <p>Létání, mizení lidí, hádání srdcového esa</p>
+
+        </section>
+        <section data-background-image="./images/programmer.gif">
+        </section>
+        <section>
+
+          <h1>Proč se to učit?</h1>
+
+        </section>
+        <section>
+
+          <h2>Nudné, opakující se věci za mě udělá počítač</h2>
+          <p>Nevyžehlí a nevypere za mě, ale třeba místo abych 500⨉ udělal <kbd>Ctrl+C</kbd> a <kbd>Ctrl+V</kbd>, můžu si to naprogramovat.</p>
+          <p class="emojis">🛠 💪</p>
+
+        </section>
+        <section>
+
+          <h2>Celkem brzo můžu dostat dobrou práci</h2>
+          <p>Programátorů je nedostatek, jsou dobře placení, mají pružnou pracovní dobu, pracují na dálku, ...</p>
+          <p class="emojis">🚀 💰</p>
+
+        </section>
+        <section>
+
+          <h2>Vstup do světa počítačů</h2>
+          <p>I když nakonec programovat nebudu, budu mít blíž i k oborům, kde jenom nečumím do divných písmenek na černým pozadí. Třeba internetový marketing, psaní dokumentací, strukturování informací na webových stránkách, a tak.</p>
+          <p class="emojis">💻 📱</p>
+
+        </section>
+        <section>
+
+          <blockquote>
+            <p>Taky psali na ídnes že přicházejí miliony zlých robotů, co berou lidem práci a za chvíli už všechno budou dělat počítače. A že budou inteligentní ledničky s Fejsbůkem.</p>
+          </blockquote>
+          <p class="emojis">☠️ 🤖 ☠️</p>
+
+        </section>
+        <section>
+
+          <p>Roboti nevím, asi mysleli appky na ajfouny, ale stejně bude lepší, když budu ty věci programovat, než když aby mě chytrá lednička předběhla na pohovoru.</p>
+          <p class="emojis">💡 🤖 💡</p>
+
+        </section>
+        <section data-background-image="./images/tbbt.jpg">
+
+          <h2 class="white-box">Jo a taky si víc užiješ The Big Bang Theory!</h2>
+
+        </section>
+        <section>
+
+          <h2>Prostě je v&nbsp;tom budoucnost, ať&nbsp;chceš nebo nechceš</h2>
+          <img src="./images/dealwithit.png">
+
+        </section>
+        <section>
+
+          <h2>Co na to potřebuju?</h2>
+          <ul class="emojis-list">
+            <li><i>💻</i> Svůj vlastní počítač</li>
+            <li><i>⚡️</i> Nějaké ty internety</li>
+            <li><i>💪</i> Odhodlání</li>
+            <li><i>🇬🇧</i> Rozumět psané angličtině</li>
+            <li><i>👀</i> Zvědavost</li>
+            <li><i>🖕</i> Překonávat všelijaké předsudky</li>
+          </ul>
+
+        </section>
+        <section>
+
+          <h2>Co nemusím nutně mít?</h2>
+          <ul class="emojis-list">
+            <li><i>👧🏻</i> Pubertu</li>
+            <li><i>🎷</i> Talent</li>
+            <li><i>🎩</i> Péro</li>
+            <li><i>🔢</i> Matematický mozek</li>
+            <li><i>🎓</i> Vysokoškolské tituly</li>
+          </ul>
+
+        </section>
+        <section>
+
+          <h2>Na co je teda vysoká škola?</h2>
+          <ul class="emojis-list">
+            <li><i>📚</i> Rozhled, zkušenosti, souvislosti, vědomosti do hloubky</li>
+            <li><i>🚀</i> Teoretické znalosti, které jsou potřeba při těch fakt složitých věcech</li>
+            <li><i>🎓</i> Tituly (potěší rodiče, babičky a tak)</li>
+          </ul>
+
+        </section>
+        <section>
+
+          <h2>S vysokou školou</h2>
+          <p>můžu jít do vědy, můžu programovat auta, vyhledávání na Googlu, můžu pomáhat doktorům, naučit počítače rozumět obrazu a řeči...</p>
+          <p class="emojis">🚀 📡 🔬</p>
+
+        </section>
+        <section>
+
+          <h2>Jako samouk</h2>
+          <p>můžu dělat všechno ostatní, třeba webovky nebo mobilní appky. Což je pořád docela dost dobrý!</p>
+          <p class="emojis">🛍 🎈 🍰</p>
+
+        </section>
+        <section>
+
+          <h2>Fuj to je ale keců!</h2>
+          <p>Jako dobrý, ale kde se to teda naučím?</p>
+          <p class="emojis">😜</p>
+
+        </section>
+        <section>
+
+          <img src="./images/pythoncz.png">
+
+        </section>
+        <section>
+
+          <h2>python.cz</h2>
+
+        </section>
+        <section>
+
+          <img src="./images/pyconcz-footer.png">
+
+        </section>
+        <section>
+
+          <img src="./images/learning-python.png">
+
+        </section>
+        <section>
+
+          <img src="./images/learning-python-online.png">
+
+        </section>
+        <section>
+
+          <h2>Hotovo! Umím programovat!</h2>
+          <p class="emojis">🎉 🏆 🎉</p>
+
+        </section>
+        <section>
+
+          <h1>Proč Python?</h1>
+
+        </section>
+        <section>
+
+          <img src="./images/puppy-python.png">
+
+        </section>
+        <section>
+
+          <p>Python se dobře učí. Vypadá spíš jak nějaká anglická věta, než spousta divných písmenek. Ať už budeš nakonec dělat cokoliv, začít s Pythonem je skvělý tah.</p>
+          <p class="emojis">💬 🇬🇧</p>
+
+        </section>
+        <section>
+
+          <p>Je univerzální. I kdyby weby vyšly z módy, Python nachází uplatnění v desítkách dalších oborů.</p>
+          <p class="emojis">✈️ 🎬</p>
+
+        </section>
+        <section>
+
+          <p>Nebudeš mít problém sehnat práci. Pythonistů je extrémní nedostatek! (<a href="http://python.cz/prace">python.cz/prace</a>)</p>
+          <p class="emojis">💻 🔨</p>
+
+        </section>
+        <section>
+
+          <p>Česká Python komunita je přátelská a živá. Vždy bude po ruce někdo, kdo ti pomůže. Navíc je s náma sranda.</p>
+          <p class="emojis">🙋 🇨🇿</p>
+
+        </section>
+        <section>
+
+          <img src="./images/veronika.png">
+
+        </section>
+
+        <section data-background-image="./images/we-have/friends.gif">
+          <h2 class="white-box">Máme se rádi</h2>
+        </section>
+        <section data-background-image="./images/we-have/pyvo-prague.jpg">
+          <h2 class="white-box">Máme sraz v Praze</h2>
+        </section>
+        <section data-background-image="./images/we-have/pyvo-brno.jpg">
+          <h2 class="white-box">Máme sraz v Brně</h2>
+        </section>
+        <section data-background-image="./images/we-have/pyvo-ostrava.jpg">
+          <h2 class="white-box">Máme sraz v Ostravě!!!</h2>
+        </section>
+        <section data-background-image="./images/we-have/conference.jpg">
+          <h2 class="white-box">Máme vlastní konferenci</h2>
+        </section>
+        <section data-background-image="./images/we-have/workshops.jpg">
+          <h2 class="white-box">Máme workshopy</h2>
+        </section>
+        <section data-background-image="./images/we-have/workshops-with-balloons.jpg">
+          <h2 class="white-box">a na všech jsou balónky</h2>
+        </section>
+        <section data-background-image="./images/we-have/3d-printing.jpg">
+          <h2 class="white-box">Máme 3D tiskárny</h2>
+        </section>
+        <section data-background-image="./images/we-have/christmas-cakes.jpg">
+          <h2 class="white-box">Díky nim máme cukroví</h2>
+        </section>
+        <section data-background-image="./images/we-have/christmas-cakes2.jpg">
+          <h2 class="white-box">Spoustu cukroví!</h2>
+        </section>
+        <section data-background-image="./images/we-have/great-coffee.jpg">
+          <h2 class="white-box">Máme skvělou kávu</h2>
+        </section>
+        <section data-background-image="./images/we-have/bad-coffee.jpg">
+          <h2 class="white-box">...někdy</h2>
+        </section>
+        <section data-background-image="./images/we-have/cupcakes.jpg">
+          <h2 class="white-box">Máme cupcakes</h2>
+        </section>
+        <section data-background-image="./images/we-have/muffins.jpg">
+          <h2 class="white-box">Máme muffiny</h2>
+        </section>
+        <section data-background-image="./images/we-have/food.jpg">
+          <h2 class="white-box">Máme skvělé jídlo</h2>
+        </section>
+        <section data-background-image="./images/we-have/beer.jpg">
+          <h2 class="white-box">Máme pivo</h2>
+        </section>
+        <section data-background-image="./images/we-have/cakes.jpg">
+          <h2 class="white-box">Když slavíme, máme dorty</h2>
+        </section>
+        <section data-background-image="./images/we-have/campfires.jpg">
+          <h2 class="white-box">Máme táboráky</h2>
+        </section>
+        <section data-background-image="./images/we-have/women-and-men.jpg">
+          <h2 class="white-box">Máme ženy i muže</h2>
+        </section>
+        <section data-background-image="./images/we-have/laziness.jpg">
+          <h2 class="white-box">Máme ukulele</h2>
+        </section>
+        <section data-background-image="./images/we-have/love-for-handicapped.jpg">
+          <h2 class="white-box">Máme hendikepované</h2>
+        </section>
+        <section data-background-image="./images/we-have/love-for-homeless-people.jpg">
+          <h2 class="white-box">Máme lidi bez domova</h2>
+        </section>
+        <section data-background-image="./images/we-have/blue.jpg">
+          <h2 class="white-box">Máme modrou</h2>
+        </section>
+        <section data-background-image="./images/we-have/green.jpg">
+          <h2 class="white-box">Máme zelenou</h2>
+        </section>
+        <section data-background-image="./images/we-have/pyladies-stickers.jpg">
+          <h2 class="white-box">Máme samolepky</h2>
+        </section>
+        <section data-background-image="./images/we-have/stickers.jpg">
+          <h2 class="white-box">Spoustu samolepek!</h2>
+        </section>
+        <section data-background-image="./images/we-have/house.jpg">
+          <h2 class="white-box">Máme dům</h2>
+        </section>
+        <section data-background-image="./images/we-have/pythonic-staff-of-enlightment.jpg">
+          <h2 class="white-box">Máme Pyč</h2>
+        </section>
+        <section data-background-image="./images/we-have/secret-agents.jpg">
+          <h2 class="white-box">Máme tajné agenty</h2>
+        </section>
+        <section data-background-image="./images/we-have/yoga.jpg">
+          <h2 class="white-box">Máme jogínky a jogíny</h2>
+        </section>
+        <section data-background-image="./images/we-have/fame.jpg">
+          <h2 class="white-box">...a teď už máme i tebe</h2>
+        </section>
+
+        <section>
+
+          <h2>Navíc, všechno kolem Pythonu je zadarmo a otevřené a dobrovolné!</h2>
+          <p class="emojis">💖</p>
+
+        </section>
+        <section>
+
+          <h2>🎈 Jednodenní workshopy 🎈</h2>
+          <ul class="emojis-list">
+            <li><i>ℹ️</i> <a href="http://djangogirls.org/">Django Girls</a></li>
+            <li><i>➡️</i> <a href="http://tutorial.djangogirls.org/">online tutoriál Django Girls</a></li>
+          </ul>
+          <p class="free">Zadarmo</p>
+
+        </section>
+        <section>
+
+          <h2>🙋 Delší kurzy 🙋</h2>
+          <ul class="emojis-list">
+            <li><i>ℹ️</i> <a href="http://pyladies.cz/">PyLadies CZ</a></li>
+            <li><i>➡️</i> <a href="http://pyladies.cz/course.html">online tutoriál PyLadies CZ</a></li>
+            <li><i>➡️</i> <a href="http://naucse.python.cz/">naucse.python.cz</a></li>
+          </ul>
+          <p class="free">Zadarmo</p>
+
+        </section>
+        <section>
+
+          <h2>💻 Online 💻</h2>
+          <ul class="emojis-list">
+            <li><i>➡️</i> <a href="http://checkio.org/">hra Checkio.org</a></li>
+            <li><i>➡️</i> <a href="http://www.codecademy.com/tracks/python">kurz CodeCademy</a></li>
+            <li><i>➡️</i> <a href="https://www.codeschool.com/learn/python">kurz Code School</a></li>
+            <li><i>➡️</i> <a href="https://www.coursera.org/course/pythonlearn">kurz Coursera</a></li>
+          </ul>
+          <p class="free">Zadarmo</p>
+
+        </section>
+        <section>
+
+          <h2>📖 Knihy 📖</h2>
+          <ul class="emojis-list">
+            <li><i>➡️</i> <a href="http://diveintopython3.py.cz/">Dive into Python 3, česky</a></li>
+            <li><i>ℹ️</i> <a href="http://github.com/pyvec/bookshelf">Knihovnička</a></li>
+            <li><i>ℹ️</i> <a href="http://pythonbooks.revolunet.com/">Python Books</a></li>
+          </ul>
+          <p class="free">Zadarmo</p>
+
+        </section>
+        <section>
+
+          <h2>😄 Lidi 😅</h2>
+          <ul class="emojis-list">
+            <li><i>ℹ️</i> <a href="http://pyvo.cz/">pyvo.cz - Python srazy v ČR</a></li>
+            <li><i>ℹ️</i> <a href="https://www.facebook.com/groups/pyonieri/">FB skupina Pyonýři</a></li>
+            <li><i>ℹ️</i> <a href="https://twitter.com/napyvo/">Twitter @naPyvo</a></li>
+          </ul>
+          <p class="free">Zadarmo</p>
+
+        </section>
+        <section>
+
+          <h1>Jak začít?</h1>
+
+        </section>
+        <section>
+
+          <h2>Přihlaš se na workshop</h2>
+          <p>Nakopne tě. Začít spolu s ostatními a poznat u toho nové lidi je sto a jedna oproti zábleskům chtění doma po večerech.</p>
+          <p class="emojis">🐍 🙋 🐍</p>
+
+        </section>
+        <section>
+
+          <h2>Projdi si doma materiály</h2>
+          <p>k Django Girls nebo PyLadies, kapitolku po kapitolce. Zkoušej si to, hraj si s tím. Neboj se.</p>
+          <p class="emojis">🐍 🏠 🐍</p>
+
+        </section>
+        <section>
+
+          <h2>Nejsi blbá, nejsi blbej. Když to nejde, zkoušej dál. Ptej se!</h2>
+          <p>Nenech si namluvit, že na to nemáš. Když se ti někdo vysměje, tak je to debil a najdi si někoho ochotnějšího.</p>
+          <p>Přes Python.cz by to neměl být problém - napiš, přijď na sraz, dej o sobě vědět a my ti poradíme.</p>
+          <p class="emojis">🙃 🤕 🙂</p>
+
+        </section>
+        <section>
+
+          <h2>Ani super programátor s praxí nesází všechno z hlavy</h2>
+          <p>Kouká na net na taháky, ptá se na fórech, na FB, čte články o tom, jak doteď všechno dělal blbě a že se to dělá jinak.</p>
+          <p class="emojis">😨 🤔 😨</p>
+
+        </section>
+        <section>
+
+          <h2>Najdi si věc, kterou si budeš chtít naprogramovat</h2>
+          <p>Chceš naprogramovat pexeso? Jinou hru? Načíst tabulku z excelu a opravit v ní něco na 100 místech? Na praktických věcech se budeš učit nejlíp.</p>
+          <p class="emojis">🎲 👾 🎮</p>
+
+        </section>
+        <section>
+
+          <h1>Jak nepřestat?</h1>
+
+        </section>
+        <section>
+
+          <p>Ne všichni ajťáci jsou hodní. Ti, kteří toho umí nejmíň, se strašně rádi povyšujou nad ostatní. Nepomáhají. Machrují. Smějou se ti.</p>
+          <p><strong>Šetři svůj čas a nervy. Mávni rukou a běž dál.</strong></p>
+          <p class="emojis">💀 😈 💀</p>
+
+        </section>
+        <section>
+
+          <p>Ne všichni ajťáci rádi přiznají, že holkám jde často matika líp a že ženská logika je v programech někdy o dost logičtější než ta jejich. Budou ti říkat, že holky do IT nepatří.</p>
+          <p><strong>Šetři svůj čas a nervy. Mávni rukou a běž dál.</strong></p>
+          <p class="emojis">👠 🎩 👠</p>
+
+        </section>
+        <section>
+
+          <h2>Prostě...</h2>
+          <p><strong>Nenech si namluvit, že na to nemáš. Když se ti někdo vysměje, tak je to debil a najdi si někoho ochotnějšího.</strong></p>
+          <p class="emojis">💩</p>
+
+        </section>
+        <section>
+
+          <h1>A to je vše! Hurá na programování!</h1>
+
+        </section>
+        <section data-background-image="./images/we-have/fame.jpg">
+
+          <h2 class="white-box">Jo jo, tleskejte</h2>
+
+        </section>
+        <section>
+
+          <img src="./images/qa.png">
+
+        </section>
+      </div>
+    </div>
+    <script src="./node_modules/reveal.js/js/reveal.js"></script>
+    <script>
+      Reveal.initialize({
+        controls: false,
+        progress: false,
+        history: true,
+        transition: 'fade',
+        backgroundTransition: 'fade',
+      });
+    </script>
+  </body>
+</html>

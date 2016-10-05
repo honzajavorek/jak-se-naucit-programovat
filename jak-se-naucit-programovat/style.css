@@ -1,0 +1,70 @@
+
+@import url(./node_modules/reveal.js/css/reveal.css);
+@import url(./node_modules/reveal.js/css/theme/white.css);
+
+.reveal .emojis {
+  font-size: 1.5em;
+}
+
+.reveal a {
+  color: #337ab7;
+}
+
+.reveal a:focus, .reveal a:hover {
+  color: #337ab7;
+  text-decoration: underline;
+}
+
+.reveal .emojis-list, .reveal .emojis-list li {
+  list-style-type: none;
+  padding-left: 1em;
+  margin-left: 0;
+}
+
+.reveal .emojis-list li {
+  position: relative;
+}
+
+.reveal .emojis-list i {
+  display: inline-block;
+  font-style: normal;
+  font-size: 90%;
+  width: 1em;
+  position: absolute;
+  left: -0.7em;
+  top: 0.1em;
+}
+
+.reveal .inverted {
+  color: #FFF;
+}
+
+.reveal .white-box {
+  padding: 0.5em;
+  background: rgba(255, 255, 255, 0.7);
+  margin-top: 6em;
+}
+
+.reveal section img {
+  border: none;
+  box-shadow: none;
+}
+
+.reveal .free {
+  position: absolute;
+  right: 0;
+  top: -1em;
+  display: block;
+  padding: 0.1em 0.5em;
+  border: 0.1em dashed #FEFB31;
+  background: #DD2890;
+  text-transform: uppercase;
+  animation: blinker 1s linear infinite;
+  font-weight: bold;
+  font-size: 150%;
+  color: #FEFB31;
+}
+
+@keyframes blinker {
+  50% { opacity: 0; }
+}
