@@ -10,7 +10,7 @@ addons:
 cache:
   directories:
     - "jak-se-naucit-programovat/node_modules"
-before_install:
+install:
   - "pip install ghp-import"
   - "nvm install node"
   - "nvm use node"
