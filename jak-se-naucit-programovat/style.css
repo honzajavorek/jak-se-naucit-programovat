@@ -1,6 +1,6 @@
 
-@import url(./node_modules/reveal.js/css/reveal.css);
-@import url(./node_modules/reveal.js/css/theme/white.css);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/reveal.min.css);
+@import url(http://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.3.0/css/theme/white.min.css);
 
 .reveal .emojis {
   font-size: 1.5em;

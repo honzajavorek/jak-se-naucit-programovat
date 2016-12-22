@@ -4,20 +4,6 @@ Přednáška o tom, jak se naučit programovat. Nenápadně publiku naznačuje, 
 
 **Cílová skupina:** úplně kdokoliv
 
-## Instalace
-
-```
-$ npm install
-```
-
-## Spuštění
-
-```
-$ open index.html
-```
-
-(`open` funguje pouze na macOS, ostatní si prostě otevřou `index.html` v prohlížeči...)
-
 ## Video
 
 - [2016-01-28, Brněnské Pyvo](https://www.youtube.com/watch?v=B8DYsKDz63Y) - [@honzajavorek](https://github.com/honzajavorek/)
