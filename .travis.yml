@@ -1,0 +1,21 @@
+language: "python"
+python: "3"
+addons:
+  apt_packages:
+    - "pandoc"
+cache:
+  directories:
+    - "jak-se-naucit-programovat/node_modules"
+before_install:
+  - "pip install ghp-import"
+  - "npm -g install npm@latest"
+  - "cd jak-se-naucit-programovat && npm install"
+script:
+  - ":"  # pass
+deploy:
+  provider: "script"
+  skip_cleanup: true
+  script: "deploy.sh"
+  on:
+    repo: "pyvec/talks"
+    branch: "master"
