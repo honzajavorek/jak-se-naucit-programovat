@@ -10,4 +10,6 @@ echo '*.md' >> .gitignore
 echo '*.sh' >> .gitignore
 
 # Deploy to GitHub Pages
-ghp-import -n -p -f .
+ghp-import -n .
+git remote set-url origin "https://$GH_TOKEN@github.com/pyvec/talks.git"
+git push origin gh-pages --force
