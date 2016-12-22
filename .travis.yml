@@ -21,7 +21,7 @@ script:
 deploy:
   provider: "script"
   skip_cleanup: true
-  script: "deploy.sh"
+  script: "./deploy.sh"
   on:
     repo: "pyvec/talks"
     branch: "master"
