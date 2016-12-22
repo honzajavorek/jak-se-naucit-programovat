@@ -20,7 +20,8 @@ $ open index.html
 
 ## Video
 
-[![leden 2016, Brno](https://img.youtube.com/vi/B8DYsKDz63Y/0.jpg)](https://www.youtube.com/watch?v=B8DYsKDz63Y)
+- [2016-01-28, Brněnské Pyvo](https://www.youtube.com/watch?v=B8DYsKDz63Y) - [@honzajavorek](https://github.com/honzajavorek/)
+- 2016-10-05, Ostravské Pyvo - [@honzajavorek](https://github.com/honzajavorek/) (video ještě není online)
 
 ## Co je potřeba dodělat...
 
