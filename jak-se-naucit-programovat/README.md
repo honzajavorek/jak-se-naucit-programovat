@@ -4,6 +4,10 @@ Přednáška o tom, jak se naučit programovat. Nenápadně publiku naznačuje, 
 
 **Cílová skupina:** úplně kdokoliv
 
+## Prezentace
+
+- [pyvec.github.io/talks/jak-se-naucit-programovat](https://pyvec.github.io/talks/jak-se-naucit-programovat/)
+
 ## Video
 
 - [2016-01-28, Brněnské Pyvo](https://www.youtube.com/watch?v=B8DYsKDz63Y) - [@honzajavorek](https://github.com/honzajavorek/)
