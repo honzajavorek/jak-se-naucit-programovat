@@ -6,7 +6,7 @@ Přednáška o tom, jak se naučit programovat. Nenápadně publiku naznačuje, 
 
 ## Prezentace
 
-- [pyvec.github.io/talks/jak-se-naucit-programovat](https://pyvec.github.io/talks/jak-se-naucit-programovat/)
+- [honzajavorek.github.io/jak-se-naucit-programovat/jak-se-naucit-programovat/#/](https://honzajavorek.github.io/jak-se-naucit-programovat/jak-se-naucit-programovat/#/)
 
 ## Video
 
